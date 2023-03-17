@@ -1,0 +1,62 @@
+<!-- My name is Mohamed Ali, and this my game page will take the user guess and tell whether
+ the user got the random number right or wrong. This page will also display the user inputs
+  and how many times they got the number wrong. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="guess.js" defer></script>
+    <title>Guessing Game</title>
+</head>
+<body>
+    <header id="header"><h1>Play The Game</h1></header>
+     
+    <!-- this div holds the two colomn div and will display as flex -->
+    <div class="row">
+
+		<!-- welcome the user to the game and get their guess number -->
+		<div id="colmOne">
+            <p>Welcome <span id="Welcoming"></span>!</p>
+            <h1>Type Your Number Below👇</h1>
+            <label for="num"></label>
+            <input type="text" id="userNum" placeholder="Enter Your Answer Here Please" length="3">
+            <button type="button" class="button">Submit</button>
+
+			
+		</div>
+
+
+		<!-- display the user inputs, number of attempts of each game, and whether they got the number right or wrong -->
+		<div id="colmTwo">
+
+            <p>Answer:  <span id="answer"></span></p>
+            <br>
+            <br>
+
+
+            <p>UserInputs:  <span id="user"></span></p>
+            <br>
+            <br>
+
+            <p>NumOfAttemptsofEachGame:  <span id="NumOfAttempts"></span></p>
+
+
+			
+		</div>
+
+
+
+	</div>
+
+    <footer id="footer">
+		
+
+	</footer>
+    
+</body>
+</html>

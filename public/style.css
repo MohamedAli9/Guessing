@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+}
+
+/* make all divs responsive */
+.row {
+    display: flex;
+}
+/* when button is hovered over, change its background color and text color */
+.button:hover {
+
+    background-color: black;
+    color: white;
+}
+
+/* when button is hovered over, change its background color and text color */
+.button2:hover {
+
+    background-color: #f9e45b;
+    color: #1b4d89;
+}
+
+/* header style  */
+#header {
+	background:  #5bccfb;
+	width: auto;
+	height: 80px;
+	padding: 30px;
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+	
+
+
+}
+
+/* header style  */
+#header2 {
+	background:  #5f2c3e;
+    font-size: 40px;
+    color: white;
+	width: auto;
+	height: 80px;
+	padding: 30px;
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+	
+
+
+}
+
+/* section belongs to the landing page  */
+#section {
+
+    float: left;
+   	background: #dfadcc;
+  	border: 1px solid;
+  	width: 100%;
+  	padding: 10px;
+  	height: 410px;
+    
+
+    text-align: center;
+}
+
+
+/* the left colomn of the game page  */
+#colmOne {
+
+	float: left;
+   	background: #fcde67;
+  	border: 1px solid;
+  	width: 40%;
+  	padding: 10px;
+  	height: 410px;
+
+    text-align: center;
+    
+
+}
+
+/* the right colomn of the game page  */
+#colmTwo {
+
+	float: left;
+  	background: #fcde67;
+  	border: 1px solid;
+  	width: 60%;
+  	padding: 10px;
+  	height: 410px; 
+
+}
+
+
+/* footer style */
+#footer {
+
+	background: #5bccfb;
+
+ 	width: auto;
+	height: 185px;
+
+}
+
+/* footer style */
+#footer2 {
+
+	background: #5f2c3e;;
+    color: white;
+
+ 	width: auto;
+	height: 185px;
+
+}
+  
